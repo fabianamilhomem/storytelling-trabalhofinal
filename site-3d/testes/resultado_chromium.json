@@ -1,0 +1,938 @@
+[
+ {
+  "grupo": "Navegação",
+  "teste": "menu com as cinco áreas na ordem",
+  "ok": true,
+  "detalhe": "['Início', 'Metodologia', 'Resultados', '40 execuções', 'Fontes']"
+ },
+ {
+  "grupo": "Navegação",
+  "teste": "rota #inicio abre só a vista correspondente",
+  "ok": true,
+  "detalhe": "['inicio']"
+ },
+ {
+  "grupo": "Navegação",
+  "teste": "#inicio: aria-current no menu",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "grupo": "Navegação",
+  "teste": "rota #metodologia abre só a vista correspondente",
+  "ok": true,
+  "detalhe": "['metodologia']"
+ },
+ {
+  "grupo": "Navegação",
+  "teste": "#metodologia: aria-current no menu",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "grupo": "Navegação",
+  "teste": "rota #resultados abre só a vista correspondente",
+  "ok": true,
+  "detalhe": "['resultados']"
+ },
+ {
+  "grupo": "Navegação",
+  "teste": "#resultados: aria-current no menu",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "grupo": "Navegação",
+  "teste": "rota #execucoes abre só a vista correspondente",
+  "ok": true,
+  "detalhe": "['execucoes']"
+ },
+ {
+  "grupo": "Navegação",
+  "teste": "#execucoes: aria-current no menu",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "grupo": "Navegação",
+  "teste": "rota #fontes abre só a vista correspondente",
+  "ok": true,
+  "detalhe": "['fontes']"
+ },
+ {
+  "grupo": "Navegação",
+  "teste": "#fontes: aria-current no menu",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "grupo": "Resultados",
+  "teste": "abre em Recall_item",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "grupo": "Resultados",
+  "teste": "abas: três métricas + síntese separada",
+  "ok": true,
+  "detalhe": "['Recall_item', 'Cobertura_evidência', 'Precisão_evidência', 'Síntese interpretativa']"
+ },
+ {
+  "grupo": "Resultados",
+  "teste": "aba cobertura: painel único visível e hash",
+  "ok": true,
+  "detalhe": "['cobertura']"
+ },
+ {
+  "grupo": "Resultados",
+  "teste": "aba precisao: painel único visível e hash",
+  "ok": true,
+  "detalhe": "['precisao']"
+ },
+ {
+  "grupo": "Resultados",
+  "teste": "aba sintese: painel único visível e hash",
+  "ok": true,
+  "detalhe": "['sintese']"
+ },
+ {
+  "grupo": "Resultados",
+  "teste": "aba recall: painel único visível e hash",
+  "ok": true,
+  "detalhe": "['recall']"
+ },
+ {
+  "grupo": "Resultados",
+  "teste": "teclado: seta direita vai a Cobertura",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "grupo": "Resultados",
+  "teste": "teclado: End vai à Síntese",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "grupo": "Dados",
+  "teste": "Recall CNJ: 93,0% e 93/100",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "grupo": "Dados",
+  "teste": "Recall STF: 100,0% e 100/100",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "grupo": "Dados",
+  "teste": "Recall TJDFT: 100,0% e 100/100",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "grupo": "Dados",
+  "teste": "Recall TST: 100,0% e 100/100",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "grupo": "Dados",
+  "teste": "Cobertura CNJ: 95,0% e 133/140",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "grupo": "Dados",
+  "teste": "Cobertura STF: 100,0% e 140/140",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "grupo": "Dados",
+  "teste": "Cobertura TJDFT: 100,0% e 140/140",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "grupo": "Dados",
+  "teste": "Cobertura TST: 100,0% e 140/140",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "grupo": "Dados",
+  "teste": "Precisão CNJ: 71,6% e 154/215",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "grupo": "Dados",
+  "teste": "Precisão STF: 58,6% e 153/261",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "grupo": "Dados",
+  "teste": "Precisão TJDFT: 39,0% e 166/426",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "grupo": "Dados",
+  "teste": "Precisão TST: 46,0% e 201/437",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "grupo": "Dados",
+  "teste": "CNJ confere com a tabela de referência do prompt",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "grupo": "Dados",
+  "teste": "STF confere com a tabela de referência do prompt",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "grupo": "Dados",
+  "teste": "TJDFT confere com a tabela de referência do prompt",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "grupo": "Dados",
+  "teste": "TST confere com a tabela de referência do prompt",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "grupo": "Dados",
+  "teste": "somas por repetição = agregados (itens CNJ 93; precisão amplitude)",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "grupo": "Dados",
+  "teste": "aviso de inconsistência de cobertura ausente",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "grupo": "Mapa",
+  "teste": "40 células (4 × 10)",
+  "ok": true,
+  "detalhe": "40"
+ },
+ {
+  "grupo": "Mapa",
+  "teste": "valores escritos em todas as células",
+  "ok": true,
+  "detalhe": "0"
+ },
+ {
+  "grupo": "Mapa",
+  "teste": "legenda explícita com mínimo e máximo",
+  "ok": true,
+  "detalhe": "Recall_item (%)\n70%\n100%\nEscala relativa ao intervalo observado nas 40 execuções"
+ },
+ {
+  "grupo": "Mapa",
+  "teste": "célula atualiza painel (TJDFT · Rep. 3)",
+  "ok": true,
+  "detalhe": "EXECUÇÃO SELECIONADA\n\nTJDFT · Rep. 3\nItens satisfeitos\n10 de 10\nRecall_item\n100,0%\nFNR_item\n0,0%\nCobertura_evidência\n100"
+ },
+ {
+  "grupo": "Mapa",
+  "teste": "célula selecionada tem aria-selected",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "grupo": "Integração",
+  "teste": "tabela destaca instituição e repetição selecionadas",
+  "ok": true,
+  "detalhe": "['TJDFT 100,0% (100/100) 100,0% (140/140) ', 'Rep. 3 10 100,0% 100,0% 43,5%']"
+ },
+ {
+  "grupo": "Integração",
+  "teste": "seleção na tabela destaca a linha correspondente no mapa",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "grupo": "Mapa",
+  "teste": "cabeçalho de linha seleciona instituição",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "grupo": "Mapa",
+  "teste": "cabeçalho de coluna seleciona repetição",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "grupo": "Mapa",
+  "teste": "teclado: seta direita move para Rep. 3",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "grupo": "Mapa",
+  "teste": "teclado: seta abaixo move para STF",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "grupo": "Mapa",
+  "teste": "métrica Precisão: células com valores de precisão",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "grupo": "Mapa",
+  "teste": "contraste: texto da célula legível (--fg definido)",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "grupo": "Console",
+  "teste": "sem erros de console/exceções na navegação principal",
+  "ok": true,
+  "detalhe": "[]"
+ },
+ {
+  "grupo": "Caminhos",
+  "teste": "nenhuma requisição falhou (assets locais)",
+  "ok": false,
+  "detalhe": "['file:///C:/Fabiana/Mestrado%20IDP/Storytelling%20de%20Dados/Trabalhos/Dashboard_PortalTransparencia/site-3d/assets/video/filme-framework-v4.mp4']"
+ },
+ {
+  "grupo": "Marca",
+  "teste": "nome rejeitado ausente do código do site (html/css/js)",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "grupo": "Marca",
+  "teste": "título do navegador sem o nome rejeitado",
+  "ok": true,
+  "detalhe": "Início · Auditoria normativa assistida por IA generativa · Milhomem (2026)"
+ },
+ {
+  "grupo": "Marca",
+  "teste": "nenhuma ocorrência visível/ARIA do nome rejeitado",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "grupo": "Viewport",
+  "teste": "1366x650 #inicio: sem rolagem horizontal",
+  "ok": true,
+  "detalhe": "excesso 0px"
+ },
+ {
+  "grupo": "Viewport",
+  "teste": "1366x650 #metodologia: sem rolagem horizontal",
+  "ok": true,
+  "detalhe": "excesso 0px"
+ },
+ {
+  "grupo": "Viewport",
+  "teste": "1366x650 #resultados: sem rolagem horizontal",
+  "ok": true,
+  "detalhe": "excesso 0px"
+ },
+ {
+  "grupo": "Viewport",
+  "teste": "1366x650 #resultados/cobertura: sem rolagem horizontal",
+  "ok": true,
+  "detalhe": "excesso 0px"
+ },
+ {
+  "grupo": "Viewport",
+  "teste": "1366x650 #resultados/precisao: sem rolagem horizontal",
+  "ok": true,
+  "detalhe": "excesso 0px"
+ },
+ {
+  "grupo": "Viewport",
+  "teste": "1366x650 #resultados/sintese: sem rolagem horizontal",
+  "ok": true,
+  "detalhe": "excesso 0px"
+ },
+ {
+  "grupo": "Viewport",
+  "teste": "1366x650 #execucoes: sem rolagem horizontal",
+  "ok": true,
+  "detalhe": "excesso 0px"
+ },
+ {
+  "grupo": "Viewport",
+  "teste": "1366x650 #fontes: sem rolagem horizontal",
+  "ok": true,
+  "detalhe": "excesso 0px"
+ },
+ {
+  "grupo": "Viewport",
+  "teste": "1366x650: ação 'Entrar nos resultados' visível sem rolar",
+  "ok": true,
+  "detalhe": "{'x': 69.4375, 'y': 530.984375, 'width': 202.90625, 'height': 46}"
+ },
+ {
+  "grupo": "Console",
+  "teste": "1366x650: sem erros",
+  "ok": true,
+  "detalhe": "[]"
+ },
+ {
+  "grupo": "Viewport",
+  "teste": "1280x590 #inicio: sem rolagem horizontal",
+  "ok": true,
+  "detalhe": "excesso 0px"
+ },
+ {
+  "grupo": "Viewport",
+  "teste": "1280x590 #metodologia: sem rolagem horizontal",
+  "ok": true,
+  "detalhe": "excesso 0px"
+ },
+ {
+  "grupo": "Viewport",
+  "teste": "1280x590 #resultados: sem rolagem horizontal",
+  "ok": true,
+  "detalhe": "excesso 0px"
+ },
+ {
+  "grupo": "Viewport",
+  "teste": "1280x590 #resultados/cobertura: sem rolagem horizontal",
+  "ok": true,
+  "detalhe": "excesso 0px"
+ },
+ {
+  "grupo": "Viewport",
+  "teste": "1280x590 #resultados/precisao: sem rolagem horizontal",
+  "ok": true,
+  "detalhe": "excesso 0px"
+ },
+ {
+  "grupo": "Viewport",
+  "teste": "1280x590 #resultados/sintese: sem rolagem horizontal",
+  "ok": true,
+  "detalhe": "excesso 0px"
+ },
+ {
+  "grupo": "Viewport",
+  "teste": "1280x590 #execucoes: sem rolagem horizontal",
+  "ok": true,
+  "detalhe": "excesso 0px"
+ },
+ {
+  "grupo": "Viewport",
+  "teste": "1280x590 #fontes: sem rolagem horizontal",
+  "ok": true,
+  "detalhe": "excesso 0px"
+ },
+ {
+  "grupo": "Viewport",
+  "teste": "1280x590: ação 'Entrar nos resultados' visível sem rolar",
+  "ok": true,
+  "detalhe": "{'x': 43.515625, 'y': 472.234375, 'width': 202.90625, 'height': 46}"
+ },
+ {
+  "grupo": "Console",
+  "teste": "1280x590: sem erros",
+  "ok": true,
+  "detalhe": "[]"
+ },
+ {
+  "grupo": "Viewport",
+  "teste": "1440x780 #inicio: sem rolagem horizontal",
+  "ok": true,
+  "detalhe": "excesso 0px"
+ },
+ {
+  "grupo": "Viewport",
+  "teste": "1440x780 #metodologia: sem rolagem horizontal",
+  "ok": true,
+  "detalhe": "excesso 0px"
+ },
+ {
+  "grupo": "Viewport",
+  "teste": "1440x780 #resultados: sem rolagem horizontal",
+  "ok": true,
+  "detalhe": "excesso 0px"
+ },
+ {
+  "grupo": "Viewport",
+  "teste": "1440x780 #resultados/cobertura: sem rolagem horizontal",
+  "ok": true,
+  "detalhe": "excesso 0px"
+ },
+ {
+  "grupo": "Viewport",
+  "teste": "1440x780 #resultados/precisao: sem rolagem horizontal",
+  "ok": true,
+  "detalhe": "excesso 0px"
+ },
+ {
+  "grupo": "Viewport",
+  "teste": "1440x780 #resultados/sintese: sem rolagem horizontal",
+  "ok": true,
+  "detalhe": "excesso 0px"
+ },
+ {
+  "grupo": "Viewport",
+  "teste": "1440x780 #execucoes: sem rolagem horizontal",
+  "ok": true,
+  "detalhe": "excesso 0px"
+ },
+ {
+  "grupo": "Viewport",
+  "teste": "1440x780 #fontes: sem rolagem horizontal",
+  "ok": true,
+  "detalhe": "excesso 0px"
+ },
+ {
+  "grupo": "Viewport",
+  "teste": "1440x780: ação 'Entrar nos resultados' visível sem rolar",
+  "ok": true,
+  "detalhe": "{'x': 108.953125, 'y': 655.140625, 'width': 202.90625, 'height': 46}"
+ },
+ {
+  "grupo": "Console",
+  "teste": "1440x780: sem erros",
+  "ok": true,
+  "detalhe": "[]"
+ },
+ {
+  "grupo": "Viewport",
+  "teste": "1536x720 #inicio: sem rolagem horizontal",
+  "ok": true,
+  "detalhe": "excesso 0px"
+ },
+ {
+  "grupo": "Viewport",
+  "teste": "1536x720 #metodologia: sem rolagem horizontal",
+  "ok": true,
+  "detalhe": "excesso 0px"
+ },
+ {
+  "grupo": "Viewport",
+  "teste": "1536x720 #resultados: sem rolagem horizontal",
+  "ok": true,
+  "detalhe": "excesso 0px"
+ },
+ {
+  "grupo": "Viewport",
+  "teste": "1536x720 #resultados/cobertura: sem rolagem horizontal",
+  "ok": true,
+  "detalhe": "excesso 0px"
+ },
+ {
+  "grupo": "Viewport",
+  "teste": "1536x720 #resultados/precisao: sem rolagem horizontal",
+  "ok": true,
+  "detalhe": "excesso 0px"
+ },
+ {
+  "grupo": "Viewport",
+  "teste": "1536x720 #resultados/sintese: sem rolagem horizontal",
+  "ok": true,
+  "detalhe": "excesso 0px"
+ },
+ {
+  "grupo": "Viewport",
+  "teste": "1536x720 #execucoes: sem rolagem horizontal",
+  "ok": true,
+  "detalhe": "excesso 0px"
+ },
+ {
+  "grupo": "Viewport",
+  "teste": "1536x720 #fontes: sem rolagem horizontal",
+  "ok": true,
+  "detalhe": "excesso 0px"
+ },
+ {
+  "grupo": "Viewport",
+  "teste": "1536x720: ação 'Entrar nos resultados' visível sem rolar",
+  "ok": true,
+  "detalhe": "{'x': 160, 'y': 597.84375, 'width': 202.90625, 'height': 46}"
+ },
+ {
+  "grupo": "Console",
+  "teste": "1536x720: sem erros",
+  "ok": true,
+  "detalhe": "[]"
+ },
+ {
+  "grupo": "Viewport",
+  "teste": "1920x950 #inicio: sem rolagem horizontal",
+  "ok": true,
+  "detalhe": "excesso 0px"
+ },
+ {
+  "grupo": "Viewport",
+  "teste": "1920x950 #metodologia: sem rolagem horizontal",
+  "ok": true,
+  "detalhe": "excesso 0px"
+ },
+ {
+  "grupo": "Viewport",
+  "teste": "1920x950 #resultados: sem rolagem horizontal",
+  "ok": true,
+  "detalhe": "excesso 0px"
+ },
+ {
+  "grupo": "Viewport",
+  "teste": "1920x950 #resultados/cobertura: sem rolagem horizontal",
+  "ok": true,
+  "detalhe": "excesso 0px"
+ },
+ {
+  "grupo": "Viewport",
+  "teste": "1920x950 #resultados/precisao: sem rolagem horizontal",
+  "ok": true,
+  "detalhe": "excesso 0px"
+ },
+ {
+  "grupo": "Viewport",
+  "teste": "1920x950 #resultados/sintese: sem rolagem horizontal",
+  "ok": true,
+  "detalhe": "excesso 0px"
+ },
+ {
+  "grupo": "Viewport",
+  "teste": "1920x950 #execucoes: sem rolagem horizontal",
+  "ok": true,
+  "detalhe": "excesso 0px"
+ },
+ {
+  "grupo": "Viewport",
+  "teste": "1920x950 #fontes: sem rolagem horizontal",
+  "ok": true,
+  "detalhe": "excesso 0px"
+ },
+ {
+  "grupo": "Viewport",
+  "teste": "1920x950: ação 'Entrar nos resultados' visível sem rolar",
+  "ok": true,
+  "detalhe": "{'x': 352, 'y': 817.484375, 'width': 202.90625, 'height': 46}"
+ },
+ {
+  "grupo": "Console",
+  "teste": "1920x950: sem erros",
+  "ok": true,
+  "detalhe": "[]"
+ },
+ {
+  "grupo": "Viewport",
+  "teste": "390x844 #inicio: sem rolagem horizontal",
+  "ok": true,
+  "detalhe": "excesso 0px"
+ },
+ {
+  "grupo": "Viewport",
+  "teste": "390x844 #metodologia: sem rolagem horizontal",
+  "ok": true,
+  "detalhe": "excesso 0px"
+ },
+ {
+  "grupo": "Viewport",
+  "teste": "390x844 #resultados: sem rolagem horizontal",
+  "ok": true,
+  "detalhe": "excesso 0px"
+ },
+ {
+  "grupo": "Viewport",
+  "teste": "390x844 #resultados/cobertura: sem rolagem horizontal",
+  "ok": true,
+  "detalhe": "excesso 0px"
+ },
+ {
+  "grupo": "Viewport",
+  "teste": "390x844 #resultados/precisao: sem rolagem horizontal",
+  "ok": true,
+  "detalhe": "excesso 0px"
+ },
+ {
+  "grupo": "Viewport",
+  "teste": "390x844 #resultados/sintese: sem rolagem horizontal",
+  "ok": true,
+  "detalhe": "excesso 0px"
+ },
+ {
+  "grupo": "Viewport",
+  "teste": "390x844 #execucoes: sem rolagem horizontal",
+  "ok": true,
+  "detalhe": "excesso 0px"
+ },
+ {
+  "grupo": "Viewport",
+  "teste": "390x844 #fontes: sem rolagem horizontal",
+  "ok": true,
+  "detalhe": "excesso 0px"
+ },
+ {
+  "grupo": "Viewport",
+  "teste": "390x844: ação 'Entrar nos resultados' visível sem rolar",
+  "ok": true,
+  "detalhe": "{'x': 18, 'y': 594.3125, 'width': 202.90625, 'height': 46}"
+ },
+ {
+  "grupo": "Console",
+  "teste": "390x844: sem erros",
+  "ok": true,
+  "detalhe": "[]"
+ },
+ {
+  "grupo": "Movimento",
+  "teste": "prefers-reduced-motion: abertura já no estado final e sem laço de animação",
+  "ok": true,
+  "detalhe": "{'t': 8.2, 'fim': 8.2, 'ativo': False}"
+ },
+ {
+  "grupo": "Movimento",
+  "teste": "botão 'Reduzir movimento' ativa a classe e interrompe a animação",
+  "ok": true,
+  "detalhe": "{'t': 8.2, 'fim': 8.2, 'ativo': False}"
+ },
+ {
+  "grupo": "Fallback",
+  "teste": "sem WebGL: planta SVG exibida na abertura",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "grupo": "Fallback",
+  "teste": "sem WebGL: lista de estações e texto continuam utilizáveis",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "grupo": "Fallback",
+  "teste": "sem WebGL: sem exceções",
+  "ok": true,
+  "detalhe": "[]"
+ },
+ {
+  "grupo": "Metodologia",
+  "teste": "estação 2: detalhe e aria-current atualizados",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "grupo": "Metodologia",
+  "teste": "estação 5: detalhe e aria-current atualizados",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "grupo": "Metodologia",
+  "teste": "estação 7: detalhe e aria-current atualizados",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "grupo": "Metodologia",
+  "teste": "seção do filme apresenta o filme V4 (sem mensagem de produção)",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "grupo": "Metodologia",
+  "teste": "alternativa para avançar sem assistir",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "grupo": "Metodologia",
+  "teste": "vídeo local, sem autoplay, preload=metadata e pausado",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "grupo": "Reprodução",
+  "teste": "Próxima desabilitada na estação 7",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "grupo": "Reprodução",
+  "teste": "reproduzir na estação 7 recomeça na estação 1 e marca 'Pausar percurso'",
+  "ok": true,
+  "detalhe": "0"
+ },
+ {
+  "grupo": "Reprodução",
+  "teste": "pausar interrompe e restaura o rótulo 'Reproduzir percurso'",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "grupo": "Reprodução",
+  "teste": "Próxima ×2 avança exatamente duas estações e texto/indicador acompanham",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "grupo": "Reprodução",
+  "teste": "Anterior retorna uma estação",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "grupo": "Redimensionamento",
+  "teste": "estação 7: canvas acompanha o palco após redimensionar a janela",
+  "ok": true,
+  "detalhe": "[857.59375, 522, 857.59375, 522]"
+ },
+ {
+  "grupo": "Console",
+  "teste": "reprodução/redimensionamento sem erros",
+  "ok": true,
+  "detalhe": "[]"
+ },
+ {
+  "grupo": "Metodologia layout",
+  "teste": "1366x650: cena, explicação, nav e controles visíveis sem rolar a página nas 7 estações",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "grupo": "Metodologia layout",
+  "teste": "1366x650: estação 6: canvas = palco, 3+ rótulos completos dentro do palco",
+  "ok": true,
+  "detalhe": "canvas=[0, 60.296875, 915.21875, 642.296875] palco=[0, 60.296875, 915.21875, 642.296875] rotulos=3"
+ },
+ {
+  "grupo": "Metodologia layout",
+  "teste": "1366x650: estação 7: canvas = palco, 1+ rótulos completos dentro do palco",
+  "ok": true,
+  "detalhe": "canvas=[0, 60.296875, 915.21875, 642.296875] palco=[0, 60.296875, 915.21875, 642.296875] rotulos=1"
+ },
+ {
+  "grupo": "Metodologia layout",
+  "teste": "1366x650: cena ocupa 64–70% da largura",
+  "ok": true,
+  "detalhe": "0.67"
+ },
+ {
+  "grupo": "Metodologia layout",
+  "teste": "1280x590: cena, explicação, nav e controles visíveis sem rolar a página nas 7 estações",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "grupo": "Metodologia layout",
+  "teste": "1280x590: estação 6: canvas = palco, 3+ rótulos completos dentro do palco",
+  "ok": true,
+  "detalhe": "canvas=[0, 59.859375, 857.59375, 581.859375] palco=[0, 59.859375, 857.59375, 581.859375] rotulos=3"
+ },
+ {
+  "grupo": "Metodologia layout",
+  "teste": "1280x590: estação 7: canvas = palco, 1+ rótulos completos dentro do palco",
+  "ok": true,
+  "detalhe": "canvas=[0, 59.859375, 857.59375, 581.859375] palco=[0, 59.859375, 857.59375, 581.859375] rotulos=1"
+ },
+ {
+  "grupo": "Metodologia layout",
+  "teste": "1280x590: cena ocupa 64–70% da largura",
+  "ok": true,
+  "detalhe": "0.67"
+ },
+ {
+  "grupo": "Metodologia layout",
+  "teste": "1440x780: cena, explicação, nav e controles visíveis sem rolar a página nas 7 estações",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "grupo": "Metodologia layout",
+  "teste": "1440x780: estação 6: canvas = palco, 3+ rótulos completos dentro do palco",
+  "ok": true,
+  "detalhe": "canvas=[0, 59.984375, 964.796875, 771.984375] palco=[0, 59.984375, 964.796875, 771.984375] rotulos=3"
+ },
+ {
+  "grupo": "Metodologia layout",
+  "teste": "1440x780: estação 7: canvas = palco, 1+ rótulos completos dentro do palco",
+  "ok": true,
+  "detalhe": "canvas=[0, 59.984375, 964.796875, 771.984375] palco=[0, 59.984375, 964.796875, 771.984375] rotulos=1"
+ },
+ {
+  "grupo": "Metodologia layout",
+  "teste": "1440x780: cena ocupa 64–70% da largura",
+  "ok": true,
+  "detalhe": "0.67"
+ },
+ {
+  "grupo": "Metodologia layout",
+  "teste": "1536x720: cena, explicação, nav e controles visíveis sem rolar a página nas 7 estações",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "grupo": "Metodologia layout",
+  "teste": "1536x720: estação 6: canvas = palco, 3+ rótulos completos dentro do palco",
+  "ok": true,
+  "detalhe": "canvas=[0, 59.984375, 1029.109375, 711.984375] palco=[0, 59.984375, 1029.109375, 711.984375] rotulos=3"
+ },
+ {
+  "grupo": "Metodologia layout",
+  "teste": "1536x720: estação 7: canvas = palco, 1+ rótulos completos dentro do palco",
+  "ok": true,
+  "detalhe": "canvas=[0, 59.984375, 1029.109375, 711.984375] palco=[0, 59.984375, 1029.109375, 711.984375] rotulos=1"
+ },
+ {
+  "grupo": "Metodologia layout",
+  "teste": "1536x720: cena ocupa 64–70% da largura",
+  "ok": true,
+  "detalhe": "0.67"
+ },
+ {
+  "grupo": "Metodologia layout",
+  "teste": "1920x950: cena, explicação, nav e controles visíveis sem rolar a página nas 7 estações",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "grupo": "Metodologia layout",
+  "teste": "1920x950: estação 6: canvas = palco, 3+ rótulos completos dentro do palco",
+  "ok": true,
+  "detalhe": "canvas=[0, 59.984375, 1286.390625, 879.984375] palco=[0, 59.984375, 1286.390625, 879.984375] rotulos=3"
+ },
+ {
+  "grupo": "Metodologia layout",
+  "teste": "1920x950: estação 7: canvas = palco, 1+ rótulos completos dentro do palco",
+  "ok": true,
+  "detalhe": "canvas=[0, 59.984375, 1286.390625, 879.984375] palco=[0, 59.984375, 1286.390625, 879.984375] rotulos=1"
+ },
+ {
+  "grupo": "Metodologia layout",
+  "teste": "1920x950: cena ocupa 64–70% da largura",
+  "ok": true,
+  "detalhe": "0.67"
+ },
+ {
+  "grupo": "Metodologia layout",
+  "teste": "390x844: cena, explicação, nav e controles visíveis sem rolar a página nas 7 estações",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "grupo": "Metodologia layout",
+  "teste": "390x844: estação 6: canvas = palco, 3+ rótulos completos dentro do palco",
+  "ok": true,
+  "detalhe": "canvas=[0, 60.484375, 390, 499.359375] palco=[0, 60.484375, 390, 499.359375] rotulos=3"
+ },
+ {
+  "grupo": "Metodologia layout",
+  "teste": "390x844: estação 7: canvas = palco, 1+ rótulos completos dentro do palco",
+  "ok": true,
+  "detalhe": "canvas=[0, 60.484375, 390, 499.359375] palco=[0, 60.484375, 390, 499.359375] rotulos=1"
+ }
+]

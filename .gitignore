@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+*.local.json
+.env
+Thumbs.db
+desktop.ini
